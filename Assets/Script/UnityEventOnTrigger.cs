@@ -10,6 +10,7 @@ public class UnityEventOnTrigger : MonoBehaviour
     [Tooltip("The colliding object that we want to trigger these events with needs to use a tag of the same name as typed in this variable")]
     public string tagToActivate = "Bee";
     
+    
     public UnityEvent onTriggerEnter, onTriggerExit;
 
     private void Awake()
@@ -27,7 +28,7 @@ public class UnityEventOnTrigger : MonoBehaviour
         {
             onTriggerEnter.Invoke();
             Debug.Log("Unity Event Trigger (enter) activated on " + gameObject);
-            if (other.CompareTag("Bee"))
+            if ((other.CompareTag("Bee")) || (other.CompareTag("SpawnFrog")))
             {
                 Destroy(other.gameObject);
             }
@@ -35,6 +36,7 @@ public class UnityEventOnTrigger : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+
         }
     }
     
