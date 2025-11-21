@@ -17,4 +17,9 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("BackStoryScene");
     }
+    
+    public void Close()
+    {
+        Application.Quit();
+    }
 }
