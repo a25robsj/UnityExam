@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class SceneChange : MonoBehaviour
+public class SceneChange2 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -9,12 +9,9 @@ public class SceneChange : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+    public void SceneChangewoohoo()
     {
-        
-    }
-    public void SceneChangewoo()
-    {
-        SceneManager.LoadScene("BackStoryScene");
+        SceneManager.LoadScene("GameScene");
     }
 }
