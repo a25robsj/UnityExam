@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -26,6 +27,7 @@ public class UnityEventOnTrigger : MonoBehaviour
         {
             onTriggerEnter.Invoke();
             Debug.Log("Unity Event Trigger (enter) activated on " + gameObject);
+            Destroy(other.gameObject);
         }
     }
     
