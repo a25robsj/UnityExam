@@ -17,6 +17,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("BackStoryScene");
     }
+    public void ScenetoGame()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
     
     public void Close()
     {

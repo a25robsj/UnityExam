@@ -421,7 +421,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1577411505}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
-        m_MethodName: SceneChangewoo
+        m_MethodName: ScenetoGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
