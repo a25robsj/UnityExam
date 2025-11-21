@@ -1861,12 +1861,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1854769971}
   - component: {fileID: 1854769970}
-  - component: {fileID: 1854769969}
   - component: {fileID: 1854769968}
   - component: {fileID: 1854769966}
   - component: {fileID: 1854769972}
   m_Layer: 0
-  m_Name: Fiendetest
+  m_Name: Fiende
   m_TagString: Fiende
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1920,40 +1919,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.059919775, y: 0.052870393}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.62, y: 0.53}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.62, y: 0.53}
+  m_Size: {x: 0.528358, y: 0.53704953}
   m_EdgeRadius: 0
---- !u!95 &1854769969
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854769965}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 00c9d026a0ce74746945fcf5fd3be2d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1854769970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1998,7 +1975,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2022456678331456872, guid: 2d7112fcede1d144480333c54d41e9e8, type: 3}
+  m_Sprite: {fileID: -5806840172668023785, guid: 96f5bcfea01ce1c4581fb8050eee63ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -31,6 +31,10 @@ public class UnityEventOnTrigger : MonoBehaviour
             {
                 Destroy(other.gameObject);
             }
+            if (other.CompareTag("Player")&&(gameObject.CompareTag("Fiende")))
+            {
+                Destroy(gameObject);
+            }
         }
     }
     
