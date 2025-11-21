@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -26,7 +27,7 @@ public class Health : MonoBehaviour
     private float currentHealth;
     private float invulnerabilityTimer;
     private bool isHurt = false;
-    
+    public TMP_Text yourHP;
     [Tooltip("Event triggered when this object takes damage")]
     [SerializeField] UnityEvent OnDamaged;
     [Tooltip("Event triggered when this object exits 'safe time' after damage")]
@@ -43,6 +44,7 @@ public class Health : MonoBehaviour
     {
         currentHealth = maxHealth;
         invulnerabilityTimer = safeTime;
+        yourHP.SetText(currentHealth.ToString());
     }
 
     private void Update()
@@ -77,6 +79,11 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void HealthSetter()
+    {
+        
+        yourHP.SetText(currentHealth.ToString());
+    }
 
     public void TakeDamage(float damage)
     {
