@@ -419,9 +419,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1577411504}
-        m_TargetAssemblyTypeName: SceneChange2, Assembly-CSharp
-        m_MethodName: SceneChangewoohoo
+      - m_Target: {fileID: 1577411505}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: SceneChangewoo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1305,6 +1305,7 @@ GameObject:
   - component: {fileID: 1577411501}
   - component: {fileID: 1577411503}
   - component: {fileID: 1577411504}
+  - component: {fileID: 1577411505}
   m_Layer: 0
   m_Name: bee_a_0
   m_TagString: Untagged
@@ -1414,6 +1415,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48e784a0de1efd047978d2e83dbde89b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1577411505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577411500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bacc834ad82494588c0d69d8faf52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1753511042
