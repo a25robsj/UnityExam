@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12db0782a373ebd4b8eb18fc8f13c5d1
+guid: 31f0fbe2dc078044fa5d099c917a4987
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -103,8 +103,8 @@ TextureImporter:
       name: bee_rest_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5
+        x: 0
+        y: 7
         width: 62
         height: 53
       alignment: 0
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e284cfee056353c4896cf51704d4a5e6
+    spriteID: e25686f06904db843ab0d71ca22b8d29
     internalID: 0
     vertices: []
     indices: 
